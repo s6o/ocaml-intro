@@ -56,6 +56,17 @@ Is stored in ~/.ocamlinit with following contents:
 #require "core.styntax";;
 ```
 
+### First thing when running the REPL
+
+```base
+utop
+open Core;;
+```
+
+As many examples use labeled arguments e.g. for List.map which is not the OCaml
+standard List.map not supporting labled arguments, but Core's List.map which
+supports f:('a -> 'b)
+
 ## Project setup
 
 These list how the *ocaml_intro* project was set up and can be used for your
