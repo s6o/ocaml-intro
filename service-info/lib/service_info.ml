@@ -28,5 +28,5 @@ let service_info_item line =
   }
 
 
-let service_info_to_string { service_name = sn; port = p; protocol = proto } =
-  sprintf "%s %i/%s" sn p proto
+let service_info_to_string { service_name; port; protocol } =
+  sprintf "%s %i/%s" service_name port protocol
