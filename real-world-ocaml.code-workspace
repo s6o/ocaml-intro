@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "__rootfiles"
+    },
+    {
+      "path": "ocaml_intro"
+    },
+    {
+      "path": "freq_lines"
+    },
+    {
+      "path": "service_info"
+    }
+  ],
+  "settings": {
+    "ocaml.sandbox": {
+      "kind": "global"
+    }
+  }
+}
