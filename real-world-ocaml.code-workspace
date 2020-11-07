@@ -11,6 +11,9 @@
     },
     {
       "path": "service_info"
+    },
+    {
+      "path": "mail_filter"
     }
   ],
   "settings": {

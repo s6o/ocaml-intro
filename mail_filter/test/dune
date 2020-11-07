@@ -1,0 +1,6 @@
+(library
+ (inline_tests)
+ (name mail_filter_test)
+ (libraries mail_filter)
+ (preprocess
+  (pps ppx_inline_test)))

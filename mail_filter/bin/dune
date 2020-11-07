@@ -1,0 +1,4 @@
+(executable
+ (public_name mail_filter)
+ (name main)
+ (libraries mail_filter))
