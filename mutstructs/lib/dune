@@ -1,0 +1,3 @@
+(library
+ (name mutstructs)
+ (libraries base))

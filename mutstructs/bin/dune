@@ -1,0 +1,4 @@
+(executable
+ (public_name mutstructs)
+ (name main)
+ (libraries mutstructs))
